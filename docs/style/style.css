@@ -1,0 +1,67 @@
+body {
+  font-family: 'Mulish', sans-serif;
+  padding: 60px;
+  background: #131313; }
+
+@font-face {
+  font-family: "activa";
+  src: url("../fonts/Activa/activai-2.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+/*GRADIENT BACKGROUND ANIMATION*/
+/***********/
+.logoimage {
+  height: 14vh;
+  display: block;
+  margin: 10px auto;
+  margin-bottom: 60px; }
+
+.background {
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  max-width: 950px;
+  margin: 30px auto;
+  height: 60vh;
+  display: block;
+  background-image: linear-gradient(to bottom, rgba(19, 19, 19, 0), #131313), url(../img/background.png);
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: #f0f0f0;
+  font-family: 'Cinzel', serif;
+  text-transform: uppercase; }
+
+.header {
+  padding-top: 2vh;
+  max-width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.nav {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0; }
+  .nav-item {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none; }
+    .nav-item a {
+      text-decoration: none;
+      color: #f0f0f0;
+      opacity: 0.6;
+      font-weight: lighter;
+      letter-spacing: 1px;
+      font-size: 12px; }
+    .nav-item a:hover {
+      opacity: 1;
+      font-weight: 400; }
+
+/*# sourceMappingURL=style.css.map */
