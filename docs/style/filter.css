@@ -1,0 +1,19 @@
+.grid-item{
+	 filter: saturate(10%);
+// Browser Specific
+-webkit-filter: saturate(10%);
+-moz-filter: saturate(10%);
+-o-filter: saturate(10%);
+-ms-filter: saturate(10%);
+}
+
+@media (max-width: 1080px){
+	#fp-nav ul, .fp-slidesNav ul{
+		margin: -10px;
+	}
+}
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span{
+	background: white !important;
+}
+
