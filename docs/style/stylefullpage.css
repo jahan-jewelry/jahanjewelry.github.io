@@ -14,6 +14,13 @@ body {
   scroll-snap-align: start;
 }
 
+.after-title {
+  color: #f0f0f0;
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 1.8;
+  padding-bottom: 2vh; }
+
 .grid-container {
   width: 100%;
   max-width: 950px;
@@ -135,6 +142,11 @@ body {
 
   }
 
+  .after-title{
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
 .grid-container {
   grid-gap: 16px;
   grid-template-columns: repeat(2, 1fr);
@@ -168,10 +180,10 @@ body {
   margin: 0 auto;
   height: 70vh;
   display: block;
-  background-image: linear-gradient(to bottom, rgba(19, 19, 19, 0), #131313), url(../img/background.png);
+  /*background-image: linear-gradient(to bottom, rgba(19, 19, 19, 0), #131313), url(../img/background.png);
   background-position: bottom;
   background-size: 55%;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;*/
   color: #f0f0f0;
   font-family: 'Cinzel', serif;
   text-transform: uppercase; }
@@ -215,13 +227,6 @@ body {
 .title-h2 {
   color: #f0f0f0;
   font-size: 24px;
-  padding-bottom: 2vh; }
-
-.after-title {
-  color: #f0f0f0;
-  font-size: 20px;
-  font-weight: 200;
-  line-height: 1.8;
   padding-bottom: 2vh; }
 
 .wrapper {
@@ -324,7 +329,11 @@ body {
   padding: 0 40px;
 }
 
-
+@media (max-width: 470px){
+  .form{
+    padding: 10px 0;
+  }
+}
 
 
 
